@@ -1,0 +1,50 @@
+@charset "utf-8";
+#menu {
+	padding: 0px;
+	width: 500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	background-color: #FFF; 
+	float: left;
+	border: 1px solid #F69;
+	position: relative;
+	list-style-type: none;
+	border-radius: 10px;	
+}
+#menu ul li:hover ul {
+	visibility: visible;
+}
+#menu ul li:hover {
+	background-color: #F99;
+}
+
+
+#menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 150px;
+}
+#menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	left: -1px;
+	top: 31px;
+}
+#menu ul li ul li:hover {
+	color: #000;
+	background-color: #FCC;
+}
